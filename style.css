@@ -33,7 +33,6 @@ body {
    Too narrow for a margin: it sits small above the title. */
 .intro { position: relative; }
 .intro h1 { margin-bottom: .8rem; }
-.intro .lead { margin-bottom: 0; }
 .sketch { margin: 0 0 1.2rem; width: 11rem; }
 /* shown as drawn; the page takes the drawing's white, and multiply hides any edge left over */
 .sketch img { width: 100%; height: auto; display: block; mix-blend-mode: multiply; filter: brightness(1.05) contrast(1.15); }
@@ -42,8 +41,6 @@ body {
     position: absolute; right: 100%; top: 0;
     margin: 0 2.5rem 0 0; width: min(18rem, calc((100vw - 46rem) / 2 - 3rem));
   }
-  /* home has a long intro, so the sketch centres on it */
-  .page-index .sketch { top: 50%; transform: translateY(-50%); }
 }
 
 /* Type */
