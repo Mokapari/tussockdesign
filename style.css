@@ -115,3 +115,9 @@ a.card:hover { border-color: var(--accent); }
   .lead { font-size: 1.2rem; }
   .question { font-size: 1.3rem; }
 }
+
+/* Image board (src/board/, built by build.py) */
+.board { columns: 2 16rem; column-gap: 1.2rem; margin: 2rem 0; }
+.board figure { break-inside: avoid; margin: 0 0 1.2rem; }
+.board img { width: 100%; height: auto; display: block; border-radius: 3px; }
+.board figcaption { font-size: .85rem; color: var(--ink-soft); margin-top: .35rem; }
