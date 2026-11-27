@@ -74,6 +74,7 @@ a.card:hover { border-color: var(--accent); }
 .three div { border-top: 2px solid var(--accent); padding-top: .7rem; }
 .three h3 { margin: 0 0 .3rem; }
 .three p { margin: 0; font-size: .95rem; color: var(--ink-soft); }
+.three.four { grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); }
 
 .steps { counter-reset: step; list-style: none; padding: 0; }
 .steps li { counter-increment: step; position: relative; padding-left: 2.6rem; margin-bottom: 1rem; }
